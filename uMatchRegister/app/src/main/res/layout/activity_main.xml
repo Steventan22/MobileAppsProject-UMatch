@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/ungulogo"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amalficoast"
+        android:text="uMatch"
+        android:textColor="#424874"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/amalficoast"/>
+    <Button
+        android:id="@+id/btntambah1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tambah mahasiswa"
+        android:backgroundTint="@color/tulisan"
+        android:textColor="@color/ungulogo"
+        app:shapeAppearanceOverlay="@style/buttomShape"/>
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Mahasiswa"
+        android:backgroundTint="@color/tulisan"
+        android:textColor="@color/ungulogo"
+        app:shapeAppearanceOverlay="@style/buttomShape"/>
+
+</LinearLayout>
